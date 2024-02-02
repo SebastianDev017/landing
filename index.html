@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Landing Page | Venture 445</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="logo_container">
+                <a href="#"><img src="" alt=""><h1>LOGO</h1></a>
+            </div>
+            <div class="navigation_container">
+                <div class="links_container">
+                    <ul class="link_list">
+                        <li class="link"><a href="#follow-us">Link Interno</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="hero_main_container">
+            <img src="star-4pt-5.png" alt="" class="star_deco_left">
+            <div class="hero_container">
+                <h1>Tus Estadisticas<br> en tus manos.</h1>
+                <button type="submit" class="hero_btn">Conocer Más</button>
+            </div>
+            <img src="lightning-1.png" alt="" class="star_deco_center">
+            <div class="hero_img_container">
+                <img src="Marketing consulting-amico.svg" alt="">
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#006db6" fill-opacity="1" d="M0,32L120,64C240,96,480,160,720,176C960,192,1200,160,1320,144L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
+            <img src="star-4pt-5.png" alt="" class="star_deco_right">
+        </div>
+        <div class="featured_section">
+            <div class="feature-grid">
+                <!-- Característica 1 -->
+                <div class="feature">
+                  <div class="feature-number">1</div>
+                  <h2 class="feature-title">Correlación y Causalidad</h2>
+                  <p class="feature-description">La correlación indica una relación entre dos variables, pero no implica que una cause el cambio en la otra.</p>
+                </div>
+              
+                <!-- Característica 2 -->
+                <div class="feature">
+                  <div class="feature-number">2</div>
+                  <h2 class="feature-title">Muestra Representativa</h2>
+                  <p class="feature-description">Una muestra que refleja fielmente las características de la población total, esencial para análisis precisos y generalizables.</p>
+                </div>
+              
+                <!-- Característica 3 -->
+                <div class="feature">
+                  <div class="feature-number">3</div>
+                  <h2 class="feature-title">Variabilidad</h2>
+                  <p class="feature-description">La variabilidad muestra cuánto varían los datos, y la desviación estándar mide esta dispersión alrededor de la media.</p>
+                </div>
+            </div>              
+        </div>                 
+    </div>
+    <div class="grow-together">
+        <div class="grow-together-content">
+            <img src="asterisk-1 (1).png" alt="" class="grow-deco-left">
+            <h2>Predicciones Apartir de Datos</h2>
+            <p>La inferencia estadística es el proceso de utilizar datos de una muestra para hacer generalizaciones o predicciones sobre una población más grande.</p>
+        </div>
+        <div class="grow-together-illustration">
+            <img src="undraw_drink_coffee_v3au.svg" alt="">
+            <img src="spiral-3 (1).png" alt="" class="grow-deco-right">
+        </div>
+    </div>
+    <footer>
+        <section id="follow-us" class="work-section">
+            <div class="work-container container">
+              <h2 class="section-title">¡Siguenos!</h2>
+              <div class="work-grid">
+                <div class="work-item">
+                  <a href="#"><img src="instagram.png" alt="Work image 1"></a>
+                </div>
+                <div class="work-item">
+                  <a href="#"><img src="facebook.png" alt=""></a>
+                </div>
+                <div class="work-item">
+                  <a href="#"><img src="linkedin.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </section>
+    </footer>
+    </main>
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header'); // Asegúrate de que tu barra de navegación está dentro de una etiqueta <header>
+            if(window.scrollY > 0){ // Cambia 0 por otro número si quieres que el cambio ocurra después de hacer scroll más abajo
+                header.classList.add('header-scroll');
+            } else {
+                header.classList.remove('header-scroll');
+            }
+        });
+        </script>
+        
+</body>
+</html>
